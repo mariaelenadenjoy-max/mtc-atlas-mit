@@ -18,8 +18,6 @@ export const MERIDIANS = [
   { code: 'CV', name: 'Ren Mai (Concepción)', color: 'bg-indigo-600' },
 ];
 
-// Imagen única proporcionada para el meridiano de Pulmón
-const IMG_LUNG_MAP = "https://i.ibb.co/XfqM9Gkz/lung-channel-map.jpg"; 
 
 export const INITIAL_POINTS: AcupuncturePoint[] = [
   {
@@ -35,7 +33,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Dermatomas T2–T3; relación con nervios intercostales y pleura subyacente',
     techniques: 'Inserción oblicua 0.5–0.8 cun lateral',
     observations: 'Ilustrar LU-1 en el primer espacio intercostal, 6 cun lateral a la línea media esternal',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU2',
@@ -50,7 +47,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Cercano a plexo braquial y arteria axilar',
     techniques: 'Oblicua 0.5–0.8 cun',
     observations: 'Ilustrar LU-2 en depresión infraclavicular lateral al esternón',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU3',
@@ -65,7 +61,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Dermatoma C5–C6; territorio nervio musculocutáneo',
     techniques: 'Perpendicular 0.5–1 cun',
     observations: 'Ilustrar LU-3 en brazo medial superior, 3 cun bajo axila',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU4',
@@ -80,7 +75,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Miotoma C6; tejido muscular bíceps braquial',
     techniques: 'Perpendicular 0.5–1 cun',
     observations: 'Ilustrar LU-4 en brazo medial, 4 cun bajo axila',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU5',
@@ -95,7 +89,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Dermatoma C6; arteria braquial y nervio mediano cercanos',
     techniques: 'Perpendicular 0.8–1.5 cun',
     observations: 'Ilustrar LU-5 en pliegue cubital lateral al tendón del bíceps',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU6',
@@ -110,7 +103,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Nervio radial superficial',
     techniques: 'Perpendicular 0.5–1 cun',
     observations: 'Ilustrar LU-6 en antebrazo anterior radial, 7 cun sobre muñeca',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU7',
@@ -125,7 +117,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Dermatoma C6; proximidad nervio radial',
     techniques: 'Oblicua 0.3–0.5 cun',
     observations: 'Ilustrar LU-7 proximal a estiloides radial',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU8',
@@ -140,7 +131,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Arteria radial subyacente',
     techniques: 'Perpendicular 0.2–0.3 cun',
     observations: 'Ilustrar LU-8 junto a arteria radial en muñeca',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU9',
@@ -155,7 +145,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Cercano a nervio mediano y arteria radial',
     techniques: 'Perpendicular 0.2–0.5 cun',
     observations: 'Ilustrar LU-9 en pliegue muñeca lado radial',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU10',
@@ -170,7 +159,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Rama del nervio mediano',
     techniques: 'Perpendicular 0.5 cun',
     observations: 'Ilustrar LU-10 en eminencia tenar, centro del primer metacarpiano',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LU11',
@@ -185,7 +173,6 @@ export const INITIAL_POINTS: AcupuncturePoint[] = [
     benefits: 'Terminaciones nerviosas digitales densas',
     techniques: '0.1 cun o sangrado',
     observations: 'Ilustrar LU-11 en ángulo ungueal radial del pulgar',
-    staticImage: IMG_LUNG_MAP
   },
   {
     id: 'LI1',
