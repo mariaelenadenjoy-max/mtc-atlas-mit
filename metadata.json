@@ -1,0 +1,7 @@
+{
+  "name": "MTC Atlas by Medicina IT",
+  "description": "Atlas profesional de acupuntura con identificación de puntos mediante IA, diseñado para la práctica clínica.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
